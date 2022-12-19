@@ -21,7 +21,6 @@ for i in range(c):
         summ_tickets.append(summ2)
     elif x >= age_summ3[0] and x <= age_summ3[1]:
         summ_tickets.append(summ3)
-
 if c >= 3:
     print("Сумма вашего заказа", float(sum(summ_tickets) * 0.9), "руб.")
 else:
